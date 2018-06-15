@@ -16,8 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.conf.urls import url
 from django.conf.urls import include
+from userdata import views
 
 urlpatterns = [
     url('admin/', admin.site.urls),
-    url(r'', include('userdata.urls'))
+    url(r'', include('userdata.urls')),
+    url(r'^submit/$', views.submit_page, name='submit_page'),
+    url(r'^submit/alreadyexists/$', views.alreadyexists, name='alreadyexists'),
+    url(r'^submit/success/$', views.success, name='success')
 ]
