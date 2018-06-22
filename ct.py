@@ -4,6 +4,7 @@ import random
 from random import randint
 import sqlite3
 import psycopg2
+import os
 
 #payload = {'ticket': {'subject': 'Configuration Help', 'comment': {'body': 'I have a problem'}, 'ticket_form_id':745328,'priority': 'normal', 'requester_id':23050130487, "tags":["bug_report"]}}
 
