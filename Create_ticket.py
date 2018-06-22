@@ -89,24 +89,3 @@ for row in all_rows:
 #print(g_j[3])
 
 
-'''count = 0
-while count < 10:
-    r = requests.post('https://'+g_j[0]+'.zendesk.com/api/v2/tickets.json', json=g_j[3][randint(0,(len(g_j[3])-1))], auth=(g_j[1]+'/token',g_j[2]))
-    count = count + 1
-    print(r.status_code)
-    print(r.text)
-    print ("TICKET CREATED\n...")
-
-#'requester_id':20566203908,
-
-#brandon
-#r = requests.post('https://z3nbrandonbest.zendesk.com/api/v2/tickets.json', json=payload, auth=('bbest@zendesk.com/token','ZJ89rx4nnD238TNbj7YJP6Qj2IR6DziTeNJGLiU9'))
-
-#mark
-#r = requests.post('https://z3nmarkmcdonnell.zendesk.com/api/v2/tickets.json', json=payload, auth=('mmcdonnell@zendesk.com/token','PHWIEZtlELnajGGsuhTk0IiUTVi3XbsZuC7knmWF'))
-#r = requests.post('https://z3nimaadh.zendesk.com/api/v2/tickets.json', json=payload, auth=('isiddiqui@zendesk.com/token','Ip6fldKPtz7DuZhCKtl3yuu2ttRZwJ7ynaL0L9tw'))
-
-#alice
-#r = requests.post('https://z3nalicehr.zendesk.com/api/v2/tickets.json', json=a2_ticket_types[randint(0,8)], auth=('alegan+3@zendesk.com/token','dn7jEFG0igSWmjstPpolaIx7qdsTXikqK53XeEfE'))
-
-'''
